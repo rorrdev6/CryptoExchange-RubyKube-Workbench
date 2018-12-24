@@ -1,0 +1,27 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "Rubykube integration testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubykube/integration.git"
+  },
+  "author": "Louis <lbellet@heliostech.fr>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rubykube/integration/issues"
+  },
+  "homepage": "https://github.com/rubykube/integration#readme",
+  "dependencies": {
+    "cypress": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0"
+  }
+}

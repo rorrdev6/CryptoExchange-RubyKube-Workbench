@@ -1,0 +1,9 @@
+{
+  "integrationFolder": "spec",
+  "fixturesFolder": "src/fixtures",
+  "pluginsFile": false,
+  "screenshotsFolder": "tmp/screenshots",
+  "supportFile": "src/support/index.js",
+  "videosFolder": "tmp/videos",
+  "projectId": "i1xxek"
+}

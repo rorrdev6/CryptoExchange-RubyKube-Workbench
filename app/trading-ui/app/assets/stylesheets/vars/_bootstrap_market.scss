@@ -2,14 +2,14 @@
 // COLORS DEFINITIONS
 // -------------------------------------------------------------
 $main-color: #777;
-$second-color: #333;
+$second-color: #eee; //old - #333
 $neutral-color: #333;
 
 $green-color: rgb(77, 215, 16);
 $red-color: rgb(208, 0, 23);
 
-$main-bg: #151515;
-$second-bg: #000;
+$main-bg: #fff; //old - #151515
+$second-bg: #fff; //old - #000
 
 $main-gray: #ccc;
 $dark-gray: #777;
@@ -36,7 +36,7 @@ $mask-bg: rgba($main-bg, .85);
 
 // texts and links
 $text-color: white;
-$link-color: $main-gray;
+$link-color: $dark-gray; //old - $main-gray
 $link-color-hover: lighten($link-color, 10);
 $link-color-active: lighten($link-color, 25);
 $icon-color: $link-color;

@@ -37,6 +37,7 @@
     uri:            http://geth:8545
     secret:         'test'
 
+
 - name:             Trust Deposit Wallet
   blockchain_key:   eth-rinkeby
   currency_id:      trst
@@ -62,3 +63,27 @@
   settings:
     uri:            http://geth:8545
     secret:         'test'
+
+- name:             Bitcoin Deposit Wallet
+  blockchain_key:   btc-testnet
+  currency_id:      btc
+  address:          '2N4qYjye5yENLEkz4UkLFxzPaxJatF3kRwf'
+  kind:             deposit
+  nsig:             1
+  max_balance:      0.0
+  status:           active
+  gateway:          bitcoind
+  settings:
+    uri:            http://admin:changeme@bitcoind:18332
+
+- name:             Bitcoin Hot Wallet
+  blockchain_key:   btc-testnet
+  currency_id:      btc
+  address:          '2MsfF7MbJ8cD63k77RXUftzr1xMUbUgbDB4'
+  kind:             hot
+  nsig:             1
+  max_balance:      100.0
+  status:           active
+  gateway:          bitcoind
+  settings:
+    uri:            http://admin:changeme@bitcoind:18332
